@@ -107,6 +107,29 @@
   ---------
 */
 
+.btn-register-quote {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.04), 0 2px 6px 0 rgba(0, 0, 0, 0.04),
+      0 16px 24px 0 rgba(0, 0, 0, 0.06);
+  border: solid 1px var(--grey);
+  color: rgba(255, 255, 255, 0.75);
+  background-color: rgb(72, 140, 218);
+  padding: 15px 25px;
+  transition-timing-function: ease;
+  border-radius: 5px;
+
+}
+
+.btn-register-quote:hover {
+  background-color: rgb(58, 187, 187);
+  color: whitesmoke;
+  transition-duration: 3000ms;
+}
+
+
+
+
 .countdown {
   -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
   -moz-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
@@ -300,7 +323,22 @@
   background-image: url("../images/bg-milestones.jpg");
 }
 
+.code-of-conduct {
+  background-color: azure;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
 
+
+.btn-coc {
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid darkgrey;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /*
   Section - FAQ
